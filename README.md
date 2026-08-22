@@ -410,3 +410,17 @@ kustomize build | kubectl apply -f -
 ## License
 
 [License](LICENSE.md)
+
+## Application URLs
+
+### Frontend Application
+
+http://a058ca0ec996a4e7ca0c4324924207bf-1302064338.us-east-1.elb.amazonaws.com
+
+### Backend API
+
+http://aa354c0a07ec742fcbab6c5ce2b29ac0-1501839413.us-east-1.elb.amazonaws.com/movies
+
+### Deployment Status
+
+The application has been successfully deployed to Amazon EKS using Kubernetes and GitHub Actions.
