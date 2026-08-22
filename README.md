@@ -424,3 +424,21 @@ http://aa354c0a07ec742fcbab6c5ce2b29ac0-1501839413.us-east-1.elb.amazonaws.com/m
 ### Deployment Status
 
 The application has been successfully deployed to Amazon EKS using Kubernetes and GitHub Actions.
+
+## Evidence
+
+### Frontend Application
+
+The frontend application is successfully deployed and accessible through the AWS LoadBalancer.
+
+### Backend API
+
+The backend `/movies` endpoint returns the expected movie data.
+
+### Kubernetes Deployment
+
+The application is deployed on Amazon EKS with running frontend and backend pods and LoadBalancer services.
+
+### CI/CD
+
+GitHub Actions successfully performs linting, testing, Docker image building, and deployment.
